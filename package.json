@@ -1,0 +1,23 @@
+{
+  "name": "phaser_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "phaser.js",
+  "scripts": {
+    "docs": "http-server phaser-docs/docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "create": "0.0.2",
+    "phaser": "^3.19.0",
+    "preload": "^0.1.0"
+  }
+}
